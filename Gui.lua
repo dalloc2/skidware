@@ -69,9 +69,6 @@ Container.Position = UDim2.new(0, 0, 0.0724637657, 0)
 Container.Size = UDim2.new(0, 243, 0, 256)
 Container.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Container.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-
-Gui.Commands.Container.CanvasSize = UDim2.new(0, 0, game.Selection:Get()[1].CanvasSize.Y.Scale+#game.Selection:Get()[1]:GetChildren()/10-.6)
-
 UIListLayout.Parent = Container
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
