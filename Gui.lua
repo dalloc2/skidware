@@ -57,6 +57,9 @@ Close.Font = Enum.Font.SourceSans
 Close.Text = "x"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
+Close.MouseButton1Click:connect(function()
+   Commands.Visible = false
+end)
 
 Container.Name = "Container"
 Container.Parent = Commands
