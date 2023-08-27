@@ -91,7 +91,7 @@ return {
 		local Label = Example:Clone()
 		Label.Name = Name
 		Label.Text = Number.. " " .. Name .. " | "..table.unpack(Alias)
-		Label.Parent = Commands
+		Label.Parent = Container
 		return Label
 	end,
 	CommandGui = CommandGui,
