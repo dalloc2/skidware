@@ -31,6 +31,9 @@ Commands.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Commands.BorderSizePixel = 0
 Commands.Position = UDim2.new(0.5, -121, 1, -380)
 Commands.Size = UDim2.new(0, 243, 0, 276)
+Commands.Active = true
+Commands.Selectable = true
+Commands.Draggable = true
 
 Title.Name = "Title"
 Title.Parent = Commands
