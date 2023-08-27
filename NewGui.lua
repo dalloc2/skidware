@@ -93,6 +93,7 @@ Example.TextXAlignment = Enum.TextXAlignment.Left
 return {
 	CommandBar = Bar,
 	Commands = Commands,
+	Example = Example,
 	AddCommand = function(Number, Name, Alias)
 		local Label = Example:Clone()
 		Label.Name = Name
