@@ -96,7 +96,11 @@ return {
 	AddCommand = function(Number, Name, Alias)
 		local Label = Example:Clone()
 		Label.Name = Name
-		Label.Text = Number.. ". " .. Name .. " | "..table.unpack(Alias)
+		if Alias then
+		   Label.Text = Number.. ". " .. Name .. " | "..table.unpack(Alias)
+		else
+		  Label.Text = Number.. ". " .. Name
+		end
 		Label.Parent = Container
 		return Label
 	end,
