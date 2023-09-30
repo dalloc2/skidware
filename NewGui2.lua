@@ -34,6 +34,7 @@ Commands.Size = UDim2.new(0, 243, 0, 276)
 Commands.Active = true
 Commands.Selectable = true
 Commands.Draggable = true
+Commands.Visible = false
 
 Title.Name = "Title"
 Title.Parent = Commands
